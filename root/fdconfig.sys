@@ -1,0 +1,16 @@
+!SET DOSDIR=C:\freedos
+!BUFFERS=20
+!FILES=40
+
+set helppath=a:\ 
+SWITCHES=/F /N
+MENUCOLOR=7,0
+MENUDEFAULT=0,2
+
+dos=high,umb
+dosdata=umb
+0?device=C:\freedos\himemx.exe
+rem 0?device=C:\freedos\jemm386.exe X=TEST I=TEST NOVME NOINVLPG
+0?device=C:\freedos\xmgr.sys
+0?shell=command.com /P /D
+
